@@ -1,0 +1,54 @@
+
+body{
+    margin: 0px;
+    background-image: url(icon.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+ul{
+    list-style-type: none;
+    background-color:lightblue;
+    margin:0px;
+    padding:20px;
+    position:fixed;
+    width: 100%;
+    margin-bottom:50px;
+}     
+
+ul li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: rgb(165, 128, 80);
+}
+a {
+    text-decoration:none;
+    color: #fff;
+}
+.images{
+    text-align: left;
+    padding-top:60px;
+}
+a.home{
+    color:black;
+}
+a.home:visited{
+    color:red;
+}
+a.home:hover{
+    color:green;
+}
+a.home:active{
+    color:yellow;
+}
+
+.food{
+    color: blue;
+}
